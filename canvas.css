@@ -1,8 +1,10 @@
+@media(min-width:1000px)
+{
 #bod
 {
     background:url("back2.jpg");
     background-repeat:no-repeat;
-    background-size:100% 100%;    
+    background-size:100% 98%;    
 }
 /* canvas{
     background:;
@@ -269,4 +271,324 @@ canvas{
     top:180px;
     left:1130px;
     color:black;
+}
+#reset
+{
+    position:absolute;
+    top:559px;
+    left:35%;
+    border:2px white solid;
+}
+}
+
+
+
+
+
+
+
+@media(max-width:1000px)
+{
+    #game_stage
+    {
+        height:100%;
+        width:100%;
+    }
+    /* canvas{
+        background:;
+    } */
+    #cover
+    {
+        position:absolute;
+        top:90px;
+        left:90px;
+        height:0px;
+        width:0px;
+    }
+    h1
+    {
+        position:absolute;
+        top:10px;
+        left:60px;
+        color:white;
+        font-weight: bolder;
+        font-size:40
+    }
+    
+    canvas{
+        border:3px grey solid;
+    }
+    #ins{
+        /* border:2px white solid; */
+        position:absolute;
+        top:0px;
+        left:0px;
+        height:0px;
+        width:0px;
+        color:white;
+    }
+    #fea1{
+        color:white;
+        position:absolute;
+        top:0px;
+        left:0px;
+        font-size:1px;
+    }
+    #fea{
+        color:white;
+        position:absolute;
+        top:0px;
+        left:0px;
+        font-size:1px;
+    }
+    #h31
+    {
+        color:white;
+        position:absolute;
+        top:0px;
+        left:0px;
+        font-size:1px;
+        font-weight:lighter;
+    }
+    #h32
+    {
+        color:white;
+        font-weight:lighter;
+        position:absolute;
+        top:0px;
+        left:0px;
+        font-size:1px;
+    }
+    #h33
+    {
+        color:white;
+        position:absolute;
+        top:0px;
+        font-weight:lighter;
+        left:0px;
+        font-size:0px;
+
+    }
+    #h34
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        top:0px;
+        font-size:1px;
+        left:0px;
+    }
+    #h35
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        font-size:1px;
+        top:0px;
+        left:0px;
+    }
+    #h36
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        font-size:1px;
+        top:0px;
+        left:0px;
+    }
+    #h37
+    {
+        font-size:1px;
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        top:0px;
+        left:0px;
+    }
+    #h38
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        font-size:1px;
+        top:0px;
+        left:0px;
+    }
+    #h39
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        font-size:1px;
+        top:0px;
+        left:0px;
+    }
+    #h310
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        top:0px;
+        left:0px;
+        font-size:1px;
+    }
+    #h231
+    {
+        color:white;
+        position:absolute;
+        top:0px;
+        left:0px;
+        font-size:1px;
+        font-weight:lighter;
+    }
+    #h232
+    {
+        color:white;
+        font-weight:lighter;
+        position:absolute;
+        font-size:1px;
+        top:0px;
+        left:0px;
+    }
+    #h233
+    {
+        color:white;
+        font-size:1px;
+        position:absolute;
+        top:0px;
+        font-weight:lighter;
+        left:0px;
+    }
+    #h234
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        top:0px;
+        font-size:1px;
+        left:0px;
+    }
+    #h235
+    {
+        color:white;
+        position:absolute;
+        font-size:1px;
+        font-weight:lighter;
+        top:0px;
+        left:0px;
+    }
+    #h236
+    {
+        color:white;
+        position:absolute;
+        font-size:1px;
+        font-weight:lighter;
+        top:0px;
+        left:0px;
+    }
+    #h237
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        font-size:1px;
+        top:0px;
+        left:0px;
+    }
+    #h238
+    {
+        color:white;
+        position:absolute;
+        font-size:1px;
+        font-weight:lighter;
+        top:0px;
+        left:0px;
+    }
+    #h239
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        top:0px;
+        font-size:1px;
+        left:0px;
+    }
+    #h2310
+    {
+        color:white;
+        position:absolute;
+        font-weight:lighter;
+        top:0px;
+        font-size:1px;
+        left:0px;
+    }
+    
+    #hscore
+    {
+        position:absolute;
+        top:600px;
+        left:350px;
+        font-weight:bolder;
+        color:black;
+        height:300px;
+        width:400px;
+    }
+    #hig
+    {
+        color:white;
+        position:absolute;
+        top:50px;
+        left:100px;
+    }
+    #num
+    {
+        color:white;
+        position:absolute;
+        top:80px;
+        left:100px;
+    }
+    #levels
+    {
+        position:absolute;
+        top:100px;
+        left:1000px;
+        color:white;
+    }
+    #easy
+    {
+        position:absolute;
+        top:180px;
+        left:920px;
+        color:black;
+    }
+    #medium
+    {
+        position:absolute;
+        top:180px;
+        left:1000px;
+        color:black;
+    }
+    #hard
+    {
+        position:absolute;
+        top:180px;
+        left:1130px;
+        color:black;
+    }
+    #start
+    {
+        position:absolute;
+        top:180px;
+        left:1130px;
+        color:black;
+    }
+    #reset
+    {
+        position:absolute;
+        top:90%;
+        left:35%;
+        border:2px white solid;
+        height:30px;
+        width:80px;
+    }   
 }
